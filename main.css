@@ -1,0 +1,91 @@
+html {
+    font-family: "Quicksand", sans-serif;
+}
+
+.text-colored {
+    color: rgba(255, 0, 0, 0.7);
+}
+
+#enviar {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#logo {
+    height: 3em;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: rgba(255, 0, 0, 0.7);
+}
+
+header {
+    background-color: gray;
+}
+
+#about,
+#contact {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#about p {
+    text-align: justify;
+}
+
+#services {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.carousel-cell {
+    width: 50%;
+}
+
+.flickity-button {
+    display: none;
+}
+
+.flickity-page-dots {
+    bottom: -22px;
+}
+    /* dots are lines */
+.flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.social li {
+    list-style: none;
+    display: inline;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+@media (max-width: 767px) {
+    .carousel-cell {
+        width: 100%;
+    }
+
+    .card-header,
+    .button-container,
+    #contact-links {
+        text-align: center;
+    }
+    
+    .card {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1079px) {
+    .card {
+        height: 50vh;
+    }
+}
